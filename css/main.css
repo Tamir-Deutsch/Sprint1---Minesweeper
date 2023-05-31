@@ -1,0 +1,57 @@
+body {
+    background: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    background-color: rgb(53, 206, 220);
+}
+
+.dark-mode {
+    position: relative;
+    top: 2px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+
+table {
+    position: absolute;
+    top: 200px;
+    left: 630px;
+}
+
+table,
+tr,
+td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    width: 3px;
+    height: 3px;
+    background-color: rgb(84 204 127);
+    font-size: 20px;
+}
+
+td:hover {
+    background-color: limegreen;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    position: static;
+    margin-top: 580px;
+    height: 20px;
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
+}

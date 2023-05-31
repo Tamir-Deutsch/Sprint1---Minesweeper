@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body onload="onInit()">
+
+    <h1>Minesweeper</h1>
+    <div class="buttons-contatiner">
+        <button onclick="chooseLevel({SIZE: 4, MINES: 2})">Beginner</button>
+        <button onclick="chooseLevel({SIZE: 8, MINES: 14})">Medium</button>
+        <button onclick="chooseLevel({SIZE: 12, MINES: 32})">Expert</button>
+        <button class="dark-mode" onclick="onDarkMode()">Dark Mode 🌙</button>
+    </div>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/utils.js"></script>
+    <div>
+        <footer>
+            Tamir Deutsch © CA2023
+        </footer>
+    </div>
+</body>
+
+</html>
