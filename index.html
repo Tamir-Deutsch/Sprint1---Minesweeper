@@ -10,17 +10,19 @@
 </head>
 
 <body onload="onInit()">
-
     <h1>Minesweeper</h1>
     <div class="buttons-contatiner">
         <button onclick="chooseLevel({SIZE: 4, MINES: 2})">Beginner</button>
         <button onclick="chooseLevel({SIZE: 8, MINES: 14})">Medium</button>
         <button onclick="chooseLevel({SIZE: 12, MINES: 32})">Expert</button>
         <button class="dark-mode" onclick="onDarkMode()">Dark Mode 🌙</button>
-    </div>
+    </div><br>
+    <button class="smiley-state" onclick="onRestart()"></button>
     <table>
         <tbody class="board"></tbody>
     </table>
+    <div>
+        <h2 class="user-msg"></h2>
     </div>
     <script src="js/main.js"></script>
     <script src="js/utils.js"></script>
