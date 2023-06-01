@@ -1,5 +1,4 @@
 'use strict'
-
 function createMat(ROWS, COLS) {
     const mat = []
     for (var i = 0; i < ROWS; i++) {
